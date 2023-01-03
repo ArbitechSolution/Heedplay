@@ -1,5 +1,5 @@
 export const hpgTokenContractAddress =
-  "0xb66Ca88110A09e5660a21B6f58837Aeb543086Cb";
+  "0x4e21b912abb4e3b32f7f6409fbf372bc2232b305";
 export const hpgTokenCOntractAbi = [{
   "inputs": [],
   "stateMutability": "nonpayable",

@@ -111,10 +111,8 @@ export default function NavbarStaking({
               <Nav.Link href="#story">
                 <HashLink to="/#story">About</HashLink>
               </Nav.Link>
-              <Nav.Link href="#https://heedplay-staking.netlify.app">
-                <HashLink to="https://heedplay-staking.netlify.app">
-                  Staking
-                </HashLink>
+              <Nav.Link href="https://heedplay-staking.netlify.app">
+                <a>Staking</a>
               </Nav.Link>
               <Nav.Link href="#tokenomics">
                 <HashLink to="/#tokenomics">Story</HashLink>

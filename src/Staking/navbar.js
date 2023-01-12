@@ -15,7 +15,7 @@ import { AiFillMediumCircle } from "react-icons/ai";
 import "./Staking.css";
 import { HashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
-import Whitepaperone from "../documment/Whitepaper.pdf";
+import Whitepaperone from "../documment/HEEDPLAYWHITEPAPER.pdf";
 export default function NavbarStaking({
   changeMain,
   changeStake,

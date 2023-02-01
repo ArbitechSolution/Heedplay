@@ -339,19 +339,19 @@ export default function AppPresale({ changeStake }) {
     <div className="staking d-flex justify-content-center mt-5" id="presale">
       <div className="imgArea ">
         <img className="stakingTop-image" src={containerImage}></img>
-        <span className="imgArea-text">{t("Presales.1")}</span>
+        <span className="imgArea-text">Buy HPG</span>
       </div>
 
       <div className="container container-staking-outside m-5 m-md-3 m-sm-2 ps-0 m-md-1 m-sm-1">
         <div className="container-fluid container-staking m-1 p-lg-5 p-md-3">
           <div className="row ">
-            <div className="col-12 d-flex justify-content-start">
+            {/* <div className="col-12 d-flex justify-content-start">
               <Countdown
                 date={Date.now() + (parseInt(startTime) * 1000 - Date.now())}
                 renderer={renderer}
               />
-              {/* <Countdown date={Date.now() + 5000} renderer={renderer}/> */}
-            </div>
+            </div> */}
+            {/* <Countdown date={Date.now() + 5000} renderer={renderer}/> */}
             <div className="col-12 d-flex justify-content-end">
               <button
                 className="btnConnectInPresale  mt-3 mb-1"

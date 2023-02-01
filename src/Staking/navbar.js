@@ -16,6 +16,7 @@ import "./Staking.css";
 import { HashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
 import Whitepaperone from "../documment/HEEDPLAYWHITEPAPER.pdf";
+import HpgPresentaion from "../documment/HPGPRESENTATION.pdf";
 export default function NavbarStaking({
   changeMain,
   changeStake,
@@ -121,7 +122,7 @@ export default function NavbarStaking({
                 <HashLink to="/#nft">NFT</HashLink>
               </Nav.Link>
               <Nav.Link href="#story">
-                <Link to="/presale">{t("navbar.presale")}</Link>
+                <Link to="/presale">Buy HPG</Link>
               </Nav.Link>
               <Nav.Link href="#team">
                 <HashLink to="/#team">Team</HashLink>
@@ -132,6 +133,11 @@ export default function NavbarStaking({
               <Nav.Link href="#faq">
                 <a href={Whitepaperone} target="_blank">
                   Whitepaper
+                </a>
+              </Nav.Link>
+              <Nav.Link href="#faq">
+                <a href={HpgPresentaion} target="_blank">
+                  Presentation
                 </a>
               </Nav.Link>
             </Nav>

@@ -160,6 +160,8 @@ export default function AppPresale({ changeStake }) {
         setIsBtn(true);
         let userEntered = referralAddress.current.value;
         userEntered = userEntered.toString();
+        userEntered = userEntered.split("ref=");
+        userEntered = userEntered[1];
         let contractOf = new web3.eth.Contract(
           smsContractAbi,
           smsIdoContractAddress

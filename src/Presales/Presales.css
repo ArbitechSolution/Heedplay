@@ -1,7 +1,6 @@
-
-.imgArea-text {
+imgArea-text {
   z-index: 99;
-  position: absolute;
+  /* position: absolute; */
   color: #000;
   font-weight: 900;
   font-size: 28px;
@@ -496,7 +495,6 @@ a{
 	position: absolute;
 	top: 48px; left: -10px;
 } 
-
 #countdown:after{
 	content:"";
 	width: 8px;
@@ -550,7 +548,6 @@ a{
 	top: 41%; left: -3px;
 	z-index: -1;
 }
-
 #countdown #tiles > span:after{
 	content:"";
 	width: 100%;

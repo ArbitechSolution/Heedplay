@@ -11,7 +11,7 @@ const networks = {
     },
     rpcUrls: [
       // "https://api.avax-test.network/ext/bc/C/rpc"
-      "https://bsc-dataseed1.binance.org"
+      "https://bsc-dataseed1.binance.org",
       // "https://bsc-dataseed1.binance.org",
       // "https://bsc-dataseed2.binance.org",
       // "https://bsc-dataseed3.binance.org",
@@ -71,7 +71,6 @@ export const loadWeb3 = async () => {
       window.web3 = new Web3(window.ethereum);
       await window.ethereum.enable();
       await window.web3.eth.getChainId((err, netId) => {
-        // console.log("networkId==>", netId);
         switch (netId.toString()) {
           case "56":
             isItConnected = true;
